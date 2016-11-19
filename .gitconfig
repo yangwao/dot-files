@@ -14,7 +14,17 @@
 [push]
 	default = simple
 [alias]
+	a = add
+	aa = add --all
+	di = diff
+	ds = diff --staged
 	ci = commit -v
+	co = checkout
+	pl = pull
+	ps = push
+	st = status -sb
+	unstage = reset HEAD --
+
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
