@@ -1,0 +1,18 @@
+⫸  tree -a -d -L 3 > filelist.txt
+.
+├── .ShadowsocksX
+├── .atom
+├── .config
+│   ├── fish
+│   │   ├── conf.d
+│   │   ├── functions
+│   │   └── generated_completions
+│   ├── mc
+│   │   └── mcedit
+│   └── omf
+├── .httpie
+└── .local
+    └── share
+        └── omf
+
+60 directories
