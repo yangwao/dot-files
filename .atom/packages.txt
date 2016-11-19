@@ -1,0 +1,25 @@
+apm list -ib > packages.txt
+
+atom-jade@0.3.0
+atom-material-syntax@0.4.6
+atom-material-syntax-light@0.4.5
+atom-material-ui@1.3.6
+autocomplete-modules@1.6.7
+docblockr@0.8.7
+dockerletion@0.2.0
+file-icons@1.7.25
+git-time-machine@1.5.4
+gitkraken@0.4.1
+language-docker@1.1.7
+linter@1.11.18
+linter-eslint@8.0.0
+linter-js-standard@3.6.0
+linter-jscs@4.1.0
+markdown-themeable-pdf@1.2.0
+open-in-sourcetree@0.1.8
+open-recent@5.0.0
+platformio-ide-terminal@2.2.2
+sourcerer@2.0.0
+tree-view-git-status@1.2.0
+
+

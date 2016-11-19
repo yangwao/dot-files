@@ -1,0 +1,102 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#7e57c2"
+      accentColor: "#b0e457"
+      genAccent: true
+      predefinedColor: "Purple"
+    fonts:
+      fontSize: 14
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "autocomplete-modules":
+    babelPluginModuleResolver: true
+    includeExtension: true
+    webpack: true
+  core:
+    disabledPackages: [
+      "linter-jscs"
+      "linter-eslint"
+      "linter-js-standard"
+      "linter"
+      "git-go"
+      "merge-conflicts"
+      "markdown-themeable-pdf"
+      "gitkraken"
+      "welcome"
+      "spell-check"
+      "bookmarks"
+      "metrics"
+      "archive-view"
+    ]
+    projectHome: "/Users/wao/Projects"
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    fontFamily: "FiraCode-Retina"
+    fontSize: 11
+    invisibles: {}
+    lineHeight: 1.2
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "d7b840c4-a791-b81f-c56b-48a1717e4c1f"
+  "file-icons":
+    tabPaneIcon: false
+  "git-plus":
+    gitPath: "/usr/bin/git"
+  "git-projects":
+    rootPath: "/Users/wao/Projects"
+    sortBy: "Latest modification date"
+  gitkraken:
+    singleInstance: true
+  linter: {}
+  "markdown-preview":
+    useGitHubStyle: true
+  "merge-conflicts": {}
+  "open-recent":
+    maxRecentDirectories: 10
+    maxRecentFiles: 6
+  "platformio-ide-terminal":
+    core: {}
+    style:
+      animationSpeed: 5
+      defaultPanelHeight: "200px"
+      fontSize: "10"
+      theme: "solarized-dark"
+    toggles:
+      runInsertedText: false
+  "seti-icons":
+    noColor: true
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "terminal-plus":
+    core: {}
+    style:
+      defaultPanelHeight: "200px"
+      fontSize: "10"
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+    showOnRightSide: true
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    removeTrailingWhitespace: true
+".jade":
+  whitespace:
+    removeTrailingWhitespace: false
