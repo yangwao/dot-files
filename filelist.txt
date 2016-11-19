@@ -1,18 +1,46 @@
-⫸  tree -a -d -L 3 > filelist.txt
+⫸  tree -a -L 3 > filelist.txt
 .
 ├── .ShadowsocksX
+│   ├── gfwlist.js
+│   └── user-rule.txt
 ├── .atom
+│   ├── config.cson
+│   ├── init.coffee
+│   ├── keymap.cson
+│   ├── packages.txt
+│   ├── snippets.cson
+│   └── styles.less
 ├── .config
 │   ├── fish
 │   │   ├── conf.d
+│   │   ├── config.fish
+│   │   ├── fishd.20c9d07ee980
+│   │   ├── fishd.20c9d07ee981
+│   │   ├── fishd.20c9d0abf177
 │   │   ├── functions
 │   │   └── generated_completions
 │   ├── mc
-│   │   └── mcedit
+│   │   ├── ini
+│   │   ├── mcedit
+│   │   └── panels.ini
 │   └── omf
+│       ├── bundle
+│       ├── channel
+│       └── theme
+├── .editorconfig
+├── .eslintrc
+├── .gitconfig
+├── .gitignore_global
 ├── .httpie
-└── .local
-    └── share
-        └── omf
+│   └── config.json
+├── .local
+│   └── share
+│       └── omf
+├── .profile
+├── .pronsolerc
+├── .slate
+├── .viminfo
+├── eslint-config-airbnb.json
+└── filelist.txt
 
-60 directories
+73 directories, 48 files

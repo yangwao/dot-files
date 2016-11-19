@@ -1,0 +1,8 @@
+set last_file_path /Users/wao/Downloads/3dprinty
+set build_dimensions 135x135x130+0+0+0
+set sliceoptscommand /Applications/Slic3r.app/Contents/MacOS/slic3r --load ~/Users/wao/Lab/slicer.ini --ignore-nonexistent-config
+set slicecommand /Applications/Slic3r.app/Contents/MacOS/slic3r $s --load /Users/wao/Lab/slicer.ini --output $o
+set port /dev/tty.usbmodem1432
+set baudrate 57600
+set last_temperature 230.0
+set last_bed_temperature 60.0
