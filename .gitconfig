@@ -15,17 +15,40 @@
 	default = simple
 [alias]
 	a = add
+	ap = add -p
 	aa = add --all
 	di = diff
 	ds = diff --staged
 	ci = commit -v
+	cm = commit -m
 	co = checkout
 	pl = pull
 	ps = push
 	st = status -sb
 	unstage = reset HEAD --
+	quick-stats = ! /usr/local/bin/git-quick-stats
+	hack = town hack
+	sync = town sync
+	ship = town ship
 
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
