@@ -31,6 +31,8 @@ alias fourthquartervertical move screenOriginX+screenSizeX/4+screenSizeX/4+scree
 alias firstthird corner top-left resize:screenSizeX/3;screenSizeY
 alias secondthird move screenOriginX+screenSizeX/3;screenOriginY screenSizeX/3;screenSizeY
 alias thirdthird move screenOriginX+screenSizeX/3+screenSizeX/3;screenOriginY screenSizeX/3;screenSizeY
+alias upperthirdthird move screenOriginX+screenSizeX/3+screenSizeX/3;screenOriginY screenSizeX/3;screenSizeY/2
+alias bottomthirdthird move screenOriginX+screenSizeX/3+screenSizeX/3;screenOriginY+screenSizeY/2 screenSizeX/3;screenSizeY/2
 
 # Resize Bindings
 #bind right:alt resize +10% +0
@@ -57,10 +59,12 @@ bind p:ctrl;alt;cmd ${fourthquartervertical}
 bind j:ctrl;alt;cmd ${firstthird}
 bind k:ctrl;alt;cmd ${secondthird}
 bind l:ctrl;alt;cmd ${thirdthird}
+bind n:ctrl;alt;cmd ${upperthirdthird}
+bind m:ctrl;alt;cmd ${bottomthirdthird}
 bind k:alt;cmd ${tophalf}
 bind j:shift;cmd ${bottomhalf}
 bind h:shift;cmd ${lefthalf}
-bind c:shift;cmd ${leftthird}
+#bind c:shift;cmd ${leftthird}
 bind v:shift;cmd ${lefttwothirds}
 bind ,:shift;cmd ${rightthird}
 #bind i:shift;alt;cmd ${midllethird}
