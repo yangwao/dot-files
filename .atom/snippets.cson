@@ -19,3 +19,30 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
+'.vue':
+  '<vue-markdown>':
+    'prefix': 'vmar'
+    'body': '<vue-markdown>$1</vue-markdown>$2'
+  'bulmaRow':
+    'prefix': 'bulmarow'
+    'body': """
+            <div class="columns">
+              <div class="column">
+                $1
+              </div>
+            </div>$2
+            """
+  'bulmaCol':
+    'prefix': 'bulmacol'
+    'body': """
+            <div class="column $1">
+              $2
+            </div>
+            """
+'.js':
+  'consolelog':
+    'prefix': 'log'
+    'body': "console.log($1)$2"
+  'errlog':
+    'prefix': 'errl'
+    'body': "if (err) l.error(err.stack)$1"

@@ -1,0 +1,6 @@
+alias l "ls -alF"
+alias .. "cd .."
+alias gs "git number --column"
+alias ga "git number add"
+alias gd "git number diff"
+alias gr "git number reset"

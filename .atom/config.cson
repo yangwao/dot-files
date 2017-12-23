@@ -1,10 +1,31 @@
 "*":
+  Hydrogen:
+    statusBarDisable: true
+  "atom-beautify":
+    general:
+      _analyticsUserId: "b8b7e0aa-4307-40ef-8e87-2053e10b8c25"
+      analytics: false
+      beautifyEntireFileOnSave: false
+    html: {}
+    jade:
+      indent_size: 1
+    js:
+      break_chained_methods: true
+      end_with_newline: true
+      space_after_anon_function: true
+    vue: {}
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui": {}
+    "atom-ide-outline-view": {}
+    use:
+      "atom-ide-outline-view": false
   "atom-material-ui":
     colors:
-      abaseColor: "#7e57c2"
-      accentColor: "#b0e457"
+      abaseColor: "#5c6bc0"
+      accentColor: "#dbc85a"
       genAccent: true
-      predefinedColor: "Purple"
+      paintCursor: true
+      predefinedColor: "Indigo"
     fonts:
       fontSize: 14
     tabs:
@@ -14,16 +35,25 @@
     ui:
       panelContrast: true
       panelShadows: true
+  "atom-package-deps":
+    ignored: []
+  "atom-ternjs":
+    inlineFnCompletionDocumentation: true
+    snippetsFirst: true
+    useSnippets: true
+    useSnippetsAndFunction: true
+  "autocomplete-js-import":
+    importTypes:
+      es6: false
   "autocomplete-modules":
     babelPluginModuleResolver: true
-    includeExtension: true
     webpack: true
+  autosave: {}
+  "base16-syntax":
+    scheme: "Eighties"
   core:
     disabledPackages: [
       "linter-jscs"
-      "linter-eslint"
-      "linter-js-standard"
-      "linter"
       "git-go"
       "merge-conflicts"
       "markdown-themeable-pdf"
@@ -33,25 +63,54 @@
       "bookmarks"
       "metrics"
       "archive-view"
+      "linter"
+      "api-blueprint-preview"
+      "language-clojure"
+      "language-csharp"
+      "language-coffee-script"
+      "language-java"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-python"
+      "language-sql"
+      "language-xml"
+      "teletype"
+      "color-picker"
+      "atom-ide-diagnostics"
+      "linter-flow"
+      "atom-ide-datatip"
+      "about"
+      "autocomplete-js-import"
+      "linter-ui-default"
+    ]
+    packagesWithKeymapsDisabled: [
+      "atom-ide-datatip"
     ]
     projectHome: "/Users/wao/Projects"
     telemetryConsent: "limited"
-    themes: [
-      "atom-material-ui"
-      "one-dark-syntax"
-    ]
+    titleBar: "custom-inset"
+    warnOnLargeFileLimit: 5
   editor:
     backUpBeforeSaving: true
     fontFamily: "FiraCode-Retina"
-    fontSize: 11
     invisibles: {}
     lineHeight: 1.2
     showIndentGuide: true
     showInvisibles: true
+    softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "d7b840c4-a791-b81f-c56b-48a1717e4c1f"
   "file-icons":
+    coloured: false
     tabPaneIcon: false
+  "fuzzy-finder":
+    ignoredNames: [
+      "node_modules"
+    ]
   "git-plus":
     gitPath: "/usr/bin/git"
   "git-projects":
@@ -59,10 +118,35 @@
     sortBy: "Latest modification date"
   gitkraken:
     singleInstance: true
-  linter: {}
-  "markdown-preview":
-    useGitHubStyle: true
+  hyperclick:
+    darwinTriggerKeys: "altKey,metaKey"
+  "ide-typescript": {}
+  jumpy:
+    fontSize: 1
+    highContrast: true
+    matchPattern: "([A-Z]+([0-9a-z])*)|[a-z0-9]{6, }"
+    useHomingBeaconEffectOnJumps: false
+  linter:
+    lintOnOpen: false
+  "linter-js-standard":
+    checkStyleDevDependencies: true
+    showEslintRules: true
+  "linter-ui-default":
+    panelHeight: 199
+  "linter-write-good": {}
+  "markdown-preview": {}
+  "markdown-preview-enhanced":
+    previewTheme: "gloom"
   "merge-conflicts": {}
+  "no-title-bar":
+    automaticTrafficLightsPadding: true
+    metaKeyMouseDrag: true
+  "nord-atom-ui":
+    darkerFormFocusEffect: true
+    tabSizing: false
+  "northem-dark-atom-ui":
+    tabSizing: false
+  "one-dark-ui": {}
   "open-recent":
     maxRecentDirectories: 10
     maxRecentFiles: 6
@@ -75,24 +159,41 @@
       theme: "solarized-dark"
     toggles:
       runInsertedText: false
+  "scroll-through-time": {}
   "seti-icons":
     noColor: true
+  "seti-syntax":
+    dynamicColor: false
+  "seti-ui":
+    compactView: true
+    themeColor: "Steel"
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
     leftEditorColor: "red"
     rightEditorColor: "green"
     syncHorizontalScroll: true
+  "standard-formatter": {}
+  "status-bar": {}
+  "sync-settings":
+    _lastBackupHash: "b04a904c9ffaf93ccdaf668ae5748999161bf478"
+    gistId: "8b0275f4023b8a565be393026824d83e"
+    personalAccessToken: "a300d6cc960c081852203819c71f5b55ffbe8d99"
+    quietUpdateCheck: true
   "terminal-plus":
     core: {}
     style:
       defaultPanelHeight: "200px"
       fontSize: "10"
+  touchbar:
+    buttons: "[{\"name\":\"my-new-label\",\"type\":\"label\",\"label\":\"🧙‍♂️💰⛓\",\"color\":\"#FF9300\"},{\"name\":\"spacer\",\"type\":\"spacer\",\"size\":\"small\"},{\"name\":\"comment-button\",\"type\":\"button\",\"label\":\"水平\",\"command\":\"atom-standard-format:format\",\"color\":\"#ffec27\"},{\"name\":\"beautify-button\",\"type\":\"button\",\"label\":\"美女 💅\",\"command\":\"atom-beautify:beautify-editor\",\"color\":\"#0178ff\"},{\"name\":\"color-picker\",\"type\":\"color-picker\",\"color\":\"#ff2ff1\"},{\"type\":\"button\",\"label\":\"编 👆📊\",\"elements\":[{\"name\":\"emoji-scrubber\",\"type\":\"scrubber\",\"label\":\"😄\",\"items\":\"emojis\"}],\"color\":\"#ff00cd\",\"command\":\"touchbar:edit\"},{\"name\":\"toggle-command-palette\",\"type\":\"button\",\"label\":\"命令\",\"command\":\"jumpy:toggle\",\"color\":\"#82fea1\"},{\"name\":\"edit-touchbar\",\"type\":\"button\",\"label\":\"⽊ 🌲\",\"command\":\"tree-view:toggle\",\"color\":\"#009a00\"},{\"name\":\"toggle-github\",\"type\":\"button\",\"label\":\"g!t 🏗🎢\",\"color\":\"#7b00d2\",\"command\":\"github:toggle-git-tab\"}]"
   "tree-view":
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
-    showOnRightSide: true
     squashDirectoryNames: true
+  "tree-view-git-status":
+    gitFlow:
+      display_type: 2
   welcome:
     showOnStartup: false
   whitespace:

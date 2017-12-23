@@ -31,3 +31,15 @@ atom-text-editor {
 atom-text-editor::shadow .cursor {
   // border-color: red;
 }
+
+atom-text-editor {
+    .jumpy-label {
+        // Regular labels
+        background-color: black;
+        color: white;
+        &.high-contrast {
+            // High Contrast labels (activated in settings)
+            background-color: LightSteelBlue;
+        }
+    }
+}

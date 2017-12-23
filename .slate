@@ -65,13 +65,13 @@ bind k:alt;cmd ${tophalf}
 bind j:shift;cmd ${bottomhalf}
 bind h:shift;cmd ${lefthalf}
 #bind c:shift;cmd ${leftthird}
-bind v:shift;cmd ${lefttwothirds}
-bind ,:shift;cmd ${rightthird}
+bind m:shift;cmd ${lefttwothirds}
+#bind ,:shift;cmd ${rightthird}
 #bind i:shift;alt;cmd ${midllethird}
 bind b:shift;cmd ${bottomleft}
 bind y:shift;cmd ${topleft}
 bind l:shift;cmd ${righthalf}
-bind m:shift;cmd ${righttwothirds}
+bind ,:shift;cmd ${righttwothirds}
 bind .:shift;cmd ${bottomright}
 bind o:shift;cmd ${topright}
 

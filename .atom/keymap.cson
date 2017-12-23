@@ -33,3 +33,9 @@
 
 'atom-workspace atom-text-editor:not([mini])':
   'alt-cmd-l': 'editor:duplicate-lines'
+
+'body':
+  'cmd-alt-n': 'tree-view:add-file'
+
+'atom-text-editor':
+  'ctrl-cmd-]': 'editor:auto-indent'
