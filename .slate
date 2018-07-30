@@ -34,8 +34,8 @@ alias thirdthird move screenOriginX+screenSizeX/3+screenSizeX/3;screenOriginY sc
 alias secondtwofifth move screenOriginX+screenSizeX/3;screenOriginY screenSizeX/5+screenSizeX/4;screenSizeY
 alias upperthirdthird move screenOriginX+screenSizeX/3+screenSizeX/3;screenOriginY screenSizeX/3;screenSizeY/2
 alias bottomthirdthird move screenOriginX+screenSizeX/3+screenSizeX/3;screenOriginY+screenSizeY/2 screenSizeX/3;screenSizeY/2
-alias upperlastquarter move screenOriginX+screenSizeX/2+screenSizeX/4;screenOriginY screenSizeX/3;screenSizeY/2
-alias bottomlastquarter move screenOriginX+screenSizeX/2+screenSizeX/4;screenOriginY+screenSizeY/2 screenSizeX/3;screenSizeY/2
+alias upperlastquarter move screenOriginX+screenSizeX/2+screenSizeX/4;screenOriginY screenSizeX/4;screenSizeY/2
+alias bottomlastquarter move screenOriginX+screenSizeX/2+screenSizeX/4;screenOriginY+screenSizeY/2 screenSizeX/4;screenSizeY/2
 
 # Resize Bindings
 #bind right:alt resize +10% +0
