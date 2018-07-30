@@ -31,8 +31,11 @@ alias fourthquartervertical move screenOriginX+screenSizeX/4+screenSizeX/4+scree
 alias firstthird corner top-left resize:screenSizeX/3;screenSizeY
 alias secondthird move screenOriginX+screenSizeX/3;screenOriginY screenSizeX/3;screenSizeY
 alias thirdthird move screenOriginX+screenSizeX/3+screenSizeX/3;screenOriginY screenSizeX/3;screenSizeY
+alias secondtwofifth move screenOriginX+screenSizeX/3;screenOriginY screenSizeX/5+screenSizeX/4;screenSizeY
 alias upperthirdthird move screenOriginX+screenSizeX/3+screenSizeX/3;screenOriginY screenSizeX/3;screenSizeY/2
 alias bottomthirdthird move screenOriginX+screenSizeX/3+screenSizeX/3;screenOriginY+screenSizeY/2 screenSizeX/3;screenSizeY/2
+alias upperlastquarter move screenOriginX+screenSizeX/2+screenSizeX/4;screenOriginY screenSizeX/3;screenSizeY/2
+alias bottomlastquarter move screenOriginX+screenSizeX/2+screenSizeX/4;screenOriginY+screenSizeY/2 screenSizeX/3;screenSizeY/2
 
 # Resize Bindings
 #bind right:alt resize +10% +0
@@ -59,8 +62,11 @@ bind p:ctrl;alt;cmd ${fourthquartervertical}
 bind j:ctrl;alt;cmd ${firstthird}
 bind k:ctrl;alt;cmd ${secondthird}
 bind l:ctrl;alt;cmd ${thirdthird}
+bind [:ctrl;alt;cmd ${secondtwofifth}
 bind n:ctrl;alt;cmd ${upperthirdthird}
 bind m:ctrl;alt;cmd ${bottomthirdthird}
+bind v:ctrl;alt;cmd ${upperlastquarter}
+bind b:ctrl;alt;cmd ${bottomlastquarter}
 bind k:alt;cmd ${tophalf}
 bind j:shift;cmd ${bottomhalf}
 bind h:shift;cmd ${lefthalf}
@@ -101,4 +107,5 @@ bind down:cmd;alt focus behind
 # Window Hints
 bind esc:cmd hint QWEASDXZCRFVTGB
 # Divvy style
-bind d:cmd;alt grid padding:5 0:3,2 1:3,2
+bind l:cmd;alt grid padding:5 0:3,2 1:3,2
+
